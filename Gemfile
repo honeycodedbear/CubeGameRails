@@ -35,6 +35,9 @@ gem 'bootstrap-sass', '~> 3.3.1'
 gem 'autoprefixer-rails'
 gem 'therubyracer', platforms: :ruby #because nodejs brakes autoprefier-rails
 
+gem 'rails_12factor', group: :production
+gem 'pg', group: :production
+
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
