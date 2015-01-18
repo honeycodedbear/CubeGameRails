@@ -14,6 +14,7 @@
 //= require opal_ujs
 //= require jquery
 //= require jquery_ujs
+//= require bootstrap-sprockets
 //= require opal-jquery
 //= require turbolinks
 //= require_tree .

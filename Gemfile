@@ -31,6 +31,10 @@ gem "haml-rails"
 gem 'jquery-rails'
 gem 'opal-jquery'
 
+gem 'bootstrap-sass', '~> 3.3.1'
+gem 'autoprefixer-rails'
+gem 'therubyracer', platforms: :ruby #because nodejs brakes autoprefier-rails
+
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'

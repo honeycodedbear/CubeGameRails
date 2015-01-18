@@ -3,6 +3,14 @@
 
 Document.ready? do
   puts 'ready'
+  Element.find('.stage1').hide
+  Element.find('.stage2').hide
+  Element.find('.stage3').hide
+  Element.find('.stage4').hide
+  Element.find('.stage5').hide
+  Element.find('.stageWarning').hide
+  Element.find('.stageEnd').hide
+
   Element.find('#btn0').on(:click) do
     Element.find('.stage0').hide
     Element.find('.stage1').effect(:fade_in)

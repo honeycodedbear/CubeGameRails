@@ -1,36 +1,64 @@
 
-.stage0
-  %h1 I’m going to share a game with you.
-  %h2 This game will reveal incredible things about whoever plays it; surprise, shock and delight complete strangers, and has kickstarted more friendships than I know how to count.
-  %h3 Play along and you’ll see. Warning... This Game can only be played once. If you are playing with 2+ beginners click here
-  %button#btn0 Lets Play
+.jumbotron.row
+  %h1.title The Cube Game
 
-.stage1.hidden
-  %h1 Remember to describe aloud everything you see. Even if it isn't exactly what I asked for.
-  %h2 There are no right answers here, only your answers.  Take a moment before you continue – the details are important.
-  %h2 I want you to imagine a desert, stretching out as far as your eyes can see. In this desert is a cube.
-  %h2 Your first task is to describe the cube. What does it look like? How large is it? What is it made of? Where exactly is it?
-  %button#btn1 Next(1/5)
+.stage0.row
+  .col-sm-3
+  .col-sm-6.col-xs-12
+    %h1 I’m going to share a game with you.
+    %h1 This game will reveal incredible things about whoever plays it; surprise, shock and delight complete strangers, and has kickstarted more friendships than I know how to count.
+    %h1 Play along and you’ll see. Warning... This Game can only be played once. If you are playing with 2+ beginners click here
+    %button.btn.btn-primary.btn-block.btn-lg#btn0{type:'button'} Lets Play
+  .col-sm-3
 
-.stage2.hidden
-  %h2 As you look at the desert and your cube, you notice there is also a ladder. Your second task (there are just five) is to describe the ladder. What is it made of? How big is it? Where is it, in relation to the cube?
-  %button#btn2 Next(2/5)
+.stage1.row
+  .col-sm-3
+  .col-sm-6.col-xs-12
+    %h1 Remember to describe aloud everything you see. Even if it isn't exactly what I asked for.
+    %h1 There are no right answers here, only your answers.  Take a moment before you continue – the details are important.
+    %h1 I want you to imagine a desert, stretching out as far as your eyes can see. In this desert is a cube.
+    %h1 Your first task is to describe the cube. What does it look like? How large is it? What is it made of? Where exactly is it?
+    %button.btn.btn-primary.btn-block.btn-lg#btn1{type:'button'} Next(1/5)
+  .col-sm-3
 
-.stage3.hidden
-  %h2 Horse
-  %button#btn3 Next(3/5)
+.stage2.row
+  .col-sm-3
+  .col-sm-6.col-xs-12
+    %h1 As you look at the desert and your cube, you notice there is also a ladder. Your second task (there are just five) is to describe the ladder. What is it made of? How big is it? Where is it, in relation to the cube?
+    %button.btn.btn-primary.btn-block.btn-lg#btn2{type:'button'} Next(2/5)
+  .col-sm-3
 
-.stage4.hidden
-  %h2 Flowers
-  %button#btn4 Next(4/5)
+.stage3.row
+  .col-sm-3
+  .col-sm-6.col-xs-12
+    %h1 Now imagine that in the scene there is a horse. (Yes, horse. I didn’t say this desert made sense). Your third task: describe the horse. Most importantly: where is the horse, and what is it doing? Where, if anywhere, is it going?
+    %button.btn.btn-primary.btn-block.btn-lg#btn3{type:'button'} Next(3/5)
+  .col-sm-3
 
-.stage5.hidden
-  %h2 Storm
-  %button#btn5 Next(5/5)
+.stage4.row
+  .col-sm-3
+  .col-sm-6.col-xs-12
+    %h1 We’re nearly there now. In the scene before you are flowers. Your penultimate task: describe the flowers. How many are there? What do they look like? Where are they, in relation to the horse, cube, ladder and sand?
+    %button.btn.btn-primary.btn-block.btn-lg#btn4{type:'button'} Next(4/5)
+  .col-sm-3
 
-.stageWarning.hidden
-  %h2 WARNING... You can only play this game once. If you haven't played honestly you will ruin itself for you forever. So please only proceed if you are ready.
-  %button#btnW Show Me the results
+.stage5.row
+  .col-sm-3
+  .col-sm-6.col-xs-12
+    %h1 Final question. In the desert there is a storm. Describe the storm. What type of storm is it? Is it near, or far? What direction is it headed? Does it affect the horse, flowers, cube or ladder?
+    %button.btn.btn-primary.btn-block.btn-lg#btn5{type:'button'} Next(5/5)
+  .col-sm-3
 
-.stageEnd.hidden
-  %h2 Congrats You are finished
+.stageWarning.row
+  .col-sm-3
+  .col-sm-6.col-xs-12
+    %h1 If you’ve been playing along, this is going to be fun. If you didn’t, I must warn you: the next part ruins your ability to play this game ever again. If you won’t want to ruin it forever, go back now. Trust me.
+    %h1 Ready? There’s no going back.
+    %button.btn.btn-primary.btn-block.btn-lg#btnW{type:'button'} Show Me the results
+  .col-sm-3
+
+.stageEnd.row
+  .col-sm-3
+  .col-sm-6.col-xs-12
+    %h1 Congrats You are finished
+  .col-sm-3
