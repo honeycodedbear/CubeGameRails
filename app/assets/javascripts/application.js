@@ -10,11 +10,8 @@
 // Read Sprockets README (https://github.com/sstephenson/sprockets#sprockets-directives) for details
 // about supported directives.
 //
-//= require opal
-//= require opal_ujs
 //= require jquery
 //= require jquery_ujs
 //= require bootstrap-sprockets
-//= require opal-jquery
 //= require turbolinks
-//= require_tree .
+//= require pages
