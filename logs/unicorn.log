@@ -1,0 +1,13 @@
+I, [2015-01-18T17:14:53.137997 #29528]  INFO -- : listening on addr=/tmp/unicorn.CubeGameRails.sock fd=10
+I, [2015-01-18T17:14:53.139105 #29528]  INFO -- : worker=0 spawning...
+I, [2015-01-18T17:14:53.146648 #29528]  INFO -- : master process ready
+I, [2015-01-18T17:14:53.165022 #29531]  INFO -- : worker=0 spawned pid=29531
+I, [2015-01-18T17:14:53.165598 #29531]  INFO -- : Refreshing Gem list
+I, [2015-01-18T17:14:58.714959 #29531]  INFO -- : worker=0 ready
+E, [2015-01-18T17:19:08.696538 #29528] ERROR -- : worker=0 PID:29531 timeout (40s > 30s), killing
+E, [2015-01-18T17:19:08.699678 #29528] ERROR -- : reaped #<Process::Status: pid 29531 SIGKILL (signal 9)> worker=0
+D, [2015-01-18T17:19:08.700509 #29528] DEBUG -- : waiting 16.0s after suspend/hibernation
+I, [2015-01-18T17:19:08.701087 #29528]  INFO -- : worker=0 spawning...
+I, [2015-01-18T17:19:08.708807 #29568]  INFO -- : worker=0 spawned pid=29568
+I, [2015-01-18T17:19:08.709329 #29568]  INFO -- : Refreshing Gem list
+I, [2015-01-18T17:19:10.740567 #29568]  INFO -- : worker=0 ready
