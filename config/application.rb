@@ -25,5 +25,8 @@ module Cube
     config.opal.arity_check         = false
     config.opal.const_missing       = true
     config.app_generators.javascript_engine = :js
+
+    config.assets.compile = true
+
   end
 end

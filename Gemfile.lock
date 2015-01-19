@@ -153,6 +153,12 @@ GEM
       kgio (~> 2.6)
       rack
       raindrops (~> 0.7)
+<<<<<<< HEAD
+=======
+    unicorn-rails (2.2.0)
+      rack
+      unicorn
+>>>>>>> 9f4ec45cb5055e4fdc2ee883aaa59643038789ce
 
 PLATFORMS
   ruby
@@ -176,3 +182,7 @@ DEPENDENCIES
   turbolinks
   uglifier (>= 1.3.0)
   unicorn
+<<<<<<< HEAD
+=======
+  unicorn-rails
+>>>>>>> 9f4ec45cb5055e4fdc2ee883aaa59643038789ce

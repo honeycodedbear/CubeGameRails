@@ -37,6 +37,8 @@ gem 'bootstrap-sass', '~> 3.3.1'
 gem 'autoprefixer-rails'
 gem 'therubyracer', platforms: :ruby #because nodejs brakes autoprefier-rails
 
+gem 'unicorn', group: :production
+gem 'unicorn-rails', group: :production
 
 
 # Use ActiveModel has_secure_password
